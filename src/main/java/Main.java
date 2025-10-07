@@ -7,7 +7,7 @@ public class Main {
         Race race = new Race();
 
         for (int i = 0; i < 3; i++) {
-            String name = "";
+            String name;
             while (true) {
                 System.out.print("Введите название машины №" + (i + 1) + ":");
                 name = scanner.nextLine();
@@ -20,7 +20,7 @@ public class Main {
                 }
             }
 
-            int speed = 0;
+            int speed;
 
             while (true) {
                 System.out.print("Введите скорость машины " + name +  " (0-250 км/ч): ");
